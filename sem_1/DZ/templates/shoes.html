@@ -1,0 +1,16 @@
+{% extends "main_page.html" %}
+
+{% block Title %}Products{% endblock %}
+{% block Content %}
+<div>
+
+    <h3>{{ content }}</h3>
+    <ul>
+        <li><a href="{{ url_for('shoes') }}">Женская</a></li>
+        <li><a href="#">Мужская</a></li>
+        <li><a href="#">Детская</a></li>
+
+    </ul>
+
+</div>
+{% endblock %}

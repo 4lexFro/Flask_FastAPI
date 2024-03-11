@@ -1,0 +1,16 @@
+{% extends 'main_page.html' %}
+
+{% block title %}Contacts{% endblock %}
+
+{% block Content %}
+<div>
+    <h3>contacts form:</h3>
+    name <input type="text" required placeholder="Input name"/> <br/>
+    email <input type="input email" placeholder="Input xxx@yyy.zzz"/> <br/>
+    birthday <input type="date"/> <br/>
+</div>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+{%endblock%}
